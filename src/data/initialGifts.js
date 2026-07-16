@@ -49,7 +49,7 @@ export const initialGifts = [
     category: "Banheiro",
     price: 280.00,
     description: "Banho e rosto em algodão egípcio de altíssima gramatura.",
-    image: "https://images.unsplash.com/photo-1616627547474-f000b23f00a5?w=500&auto=format&fit=crop&q=60",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=500&auto=format&fit=crop&q=60",
     reserved: false,
     reservedBy: "",
     message: ""
@@ -104,7 +104,7 @@ export const initialGifts = [
     category: "Cozinha",
     price: 340.00,
     description: "6 facas em aço inox com bloco organizador de madeira nobre.",
-    image: "https://images.unsplash.com/photo-1593630734738-e654b770f05b?w=500&auto=format&fit=crop&q=60",
+    image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?w=500&auto=format&fit=crop&q=60",
     reserved: false,
     reservedBy: "",
     message: ""

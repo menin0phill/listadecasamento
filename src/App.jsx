@@ -10,7 +10,7 @@ import { initialGifts } from './data/initialGifts';
 
 function App() {
   const [gifts, setGifts] = useState(() => {
-    const saved = localStorage.getItem('wedding_gifts_gm');
+    const saved = localStorage.getItem('wedding_gifts_gm_v2');
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -25,7 +25,7 @@ function App() {
 
   // Sync to localStorage
   useEffect(() => {
-    localStorage.setItem('wedding_gifts_gm', JSON.stringify(gifts));
+    localStorage.setItem('wedding_gifts_gm_v2', JSON.stringify(gifts));
   }, [gifts]);
 
   // Handler: Reserve a Gift
